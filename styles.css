@@ -3,5 +3,47 @@
 }
 body{
     margin:0;
-    background-color: hsl(214, 47%, 23%);
+    /* background-color: hsl(214, 47%, 23%); */
+    background: rgb(31,55,86);
+    background: radial-gradient(circle, rgba(31,55,86,1) 0%, rgba(20,21,57,1) 100%);
+    
+    /* font-family: 'Barlow Semi Condensed', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar{
+    border: 2px solid white;
+    width: 700px;
+    border-radius: 10px;
+    margin-top:  20px;
+    display: flex;
+    height: 120px;
+    /* justify-content: center; */
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-right: auto;
+    padding: 20px;
+}
+.score-container{
+    background-color: white;
+    margin: 10px 20px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+.score{
+    color: hsl(229, 25%, 31%);
+    font-weight: 500;
+    margin: 0;
+    margin-top: 8px;
+}
+.points{
+    color: hsl(229, 25%, 31%);
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 50px;
 }
